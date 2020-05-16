@@ -4,7 +4,7 @@
             <div class="table-wrap">
                 <div class="table-cell" id="tsd-search" data-index="{{relativeURL "assets/js/search.json"}}" data-base="{{relativeURL "./"}}">
                     <div class="field">
-                        <label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+                        <label for="tsd-search-field" class="toolbar-icon toolbar-icon-search"><i class="gg-search"></i></label>
                         <input id="tsd-search-field" type="text" />
                     </div>
 
@@ -17,8 +17,8 @@
                 </div>
 
                 <div class="table-cell" id="tsd-widgets">
-                    <div id="tsd-filter">
-                        <a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+                    {{!-- <div id="tsd-filter">
+                        <a href="#" class="toolbar-icon toolbar-icon-options" data-toggle="options"><i class="gg-options"></i></a>
                         <div class="tsd-filter-group">
                             <div class="tsd-select" id="tsd-filter-visibility">
                                 <span class="tsd-select-label">All</span>
@@ -42,9 +42,9 @@
                                 <label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
                             {{/unless}}
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+                    <a href="#" class="toolbar-icon toolbar-icon-menu" data-toggle="menu"><i class="gg-menu"></i></a>
                 </div>
             </div>
         </div>

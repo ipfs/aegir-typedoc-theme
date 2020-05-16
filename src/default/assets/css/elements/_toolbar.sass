@@ -33,12 +33,13 @@
             text-decoration: underline
 
     .table-wrap
-        display: table
+        display: flex
+        align-items: center
+        justify-content: center
         width: 100%
         height: $TOOLBAR_HEIGHT
 
     .table-cell
-        display: table-cell
         position: relative
         white-space: nowrap
         line-height: $TOOLBAR_HEIGHT
@@ -159,7 +160,7 @@
                 background-color: $COLOR_PANEL
 
             &:hover
-                background-color: $COLOR_PANEL_DIVIDER
+                background-color: $NORD2
 
             &.selected:before
                 background-position: -200px 0
