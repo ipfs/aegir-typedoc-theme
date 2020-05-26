@@ -56,7 +56,7 @@
             </ul>
             <h1>{{#compact}}
                 {{model.kindString}}&nbsp;
-                {{model.name}}
+                {{ removeQuotes model.name}}
                 {{#if model.typeParameters}}
                     &lt;
                     {{#each model.typeParameters}}
