@@ -36,7 +36,7 @@ const config = {
             patterns: [
                 {
                     context: path.resolve(__dirname, 'src/default'),
-                    from: '**/*.hbs',
+                    from: '**/*.{hbs,js}',
                     to: path.resolve(__dirname, 'bin/default'),
                 },
             ],
